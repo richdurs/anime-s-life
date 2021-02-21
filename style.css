@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+@import url("css/component/container.css");
+@import url("css/component/avatar.css");
+@import url("css/component/button.css");
+@import url("css/component/banner.css");
+@import url("css/component/card-white.css");
+@import url("css/component/card.css");
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2{
+	text-align:center;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+li {
+	text-align:left;
+}
+
+li:hover {
+	color:#6D71DD;
+	text-decoration:underline;
+}
+
+.list-inline {
+	list-style:none;
+	padding-left:0px;
+}
+
+.list-inline li {
+	display:inline;
+	padding:10px;
+}
+
+.list-inline i {
+	font-size:50px;
+	color:rgb(150,150,150);
+}
+
+.list-inline i:hover {
+	transition: all 0.5s ease;
+	font-size:55px;
+	color:rgb(100,100,100);
+}
+
+#Music h2 {
+	text-align:center;
+}
+
+#center {
+	text-align:center;
+	padding-bottom:20px;
+}
+
+#Join-us-section {
+	padding-top:10px;
+}
